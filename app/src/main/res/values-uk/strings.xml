@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TIRv20</string>
+
+    <string name="textTime">Час гри</string>
+    <string name="textShoot">Влучання</string>
+    <string name="Digit_timer">10:00</string>
+
+    <string name="textChangeTime">Змінити час гри</string>
+
+    <string name="buttonTime" >Час активації мішеней %d сек</string>
+    <string name="checkIR">Постріл у гравця</string>
+    <string name="buttonDamage" >Урон турелі %d </string>
+    <string name="buttonDown" >Завантажити оновлення %d</string>
+    <string name="buttonProg" >Почати оновлення %d</string>
+    <string name="buttonTarget">Кількість мішеней</string>
+
+    <string name="buttonStart">СТАРТ</string>
+
+    <string name="DownloadTurret">Запис в турель</string>
+    <string name="loadSettings">завантажити налаштування</string>
+    <string name="saveSettings">зберегти налаштування</string>
+
+    <string name="targetRed">вогонь по червоним</string>
+    <string name="targetBlue">вогонь по синім</string>
+    <string name="targetGreen">вогонь по зеленим</string>
+    <string name="targetAll">вогонь по всім</string>
+
+    <string name="LabelTurretOn">активуйте Тір</string>
+
+    <string name="dialogTime" >Час активації мішеней</string>
+    <string name="dialogDamage" >Урон турелі</string>
+    <string name="dialogDown" >Завантажити оновлення</string>
+    <string name="dialogProg" >Почати оновлення</string>
+    <string name="textServer">Увімкнить Тир</string>
+
+    <string name="textMenuDevice" >Налаштування</string>
+    <string name="textMenuPreset" >Інструкція</string>
+
+    <string name="scenaStandart" >Стандарт</string>
+    <string name="scenaColor" >Кольорові мішені</string>
+    <string name="scenaDuel" >Двобой</string>
+
+</resources>

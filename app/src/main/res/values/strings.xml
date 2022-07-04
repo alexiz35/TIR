@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TIRv20</string>
+
+    <string name="textTime">Game time</string>
+    <string name="textShoot">Shooting</string>
+    <string name="Digit_timer">10:00</string>
+
+    <string name="textChangeTime">Input time game</string>
+
+    <string name="buttonTime">Time for activity %d sec</string>
+    <string name="checkIR">Shot at the player</string>
+    <string name="buttonDamage">Damage turret %d</string>
+    <string name="buttonDown">Download %d</string>
+    <string name="buttonProg">Programming %d</string>
+    <string name="buttonTarget">amount target</string>
+
+    <string name="buttonStart">START</string>
+
+    <string name="DownloadTurret">Apply settings</string>
+    <string name="loadSettings">load settings</string>
+    <string name="saveSettings">save settings</string>
+
+    <string name="targetRed">target - red</string>
+    <string name="targetBlue">target - blue</string>
+    <string name="targetGreen">target - green</string>
+    <string name="targetAll">target - all</string>
+
+    <string name="LabelTurretOn">turn on shooting</string>
+
+    <string name="dialogTime">Time for activity target</string>
+    <string name="dialogDamage">Damage turret</string>
+    <string name="dialogDown">Download </string>
+    <string name="dialogProg">Programming</string>
+    <string name="textServer">Turn ON TIR</string>
+
+    <string name="textMenuDevice">Setting</string>
+    <string name="textMenuPreset">Help</string>
+
+    <string name="scenaStandart" >Standart</string>
+    <string name="scenaColor" >Color target</string>
+    <string name="scenaDuel" >Duel</string>
+
+</resources>

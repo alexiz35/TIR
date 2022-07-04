@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TIRv20</string>
+
+    <string name="textTime">Время игры</string>
+    <string name="textShoot">Попадания</string>
+    <string name="Digit_timer">10:00</string>
+
+
+    <string name="textChangeTime">Введите время игры</string>
+    <string name="buttonTime" >Время активности мишеней %d сек</string>
+    <string name="checkIR">Выстрел в игрока</string>
+    <string name="buttonDamage" >Урон турели %d </string>
+    <string name="buttonDown" >Загрузка прошивки %d</string>
+    <string name="buttonProg" >Прошивка устройства %d</string>
+    <string name="buttonTarget">Количество мишеней</string>
+
+    <string name="buttonStart">СТАРТ</string>
+
+    <string name="DownloadTurret">Запись настроек</string>
+    <string name="loadSettings">загрузить настройки</string>
+    <string name="saveSettings">сохранить настройки</string>
+
+    <string name="targetRed">цель - красные</string>
+    <string name="targetBlue">цель - синие</string>
+    <string name="targetGreen">цель - зеленые</string>
+    <string name="targetAll">цель -все</string>
+
+    <string name="LabelTurretOn">включите Тир</string>
+
+    <string name="dialogTime" >Время активности мишеней</string>
+    <string name="dialogDamage" >Урон турели</string>
+    <string name="dialogDown" >Загрузка обновления</string>
+    <string name="dialogProg" >Прошивка устройства</string>
+    <string name="textServer">Включите Тир</string>
+
+    <string name="textMenuDevice" >Настройка</string>
+    <string name="textMenuPreset" >Справка</string>
+
+    <string name="scenaStandart" >Стандарт</string>
+    <string name="scenaColor" >Попади в цвет</string>
+    <string name="scenaDuel" >Дуель</string>
+
+
+
+</resources>

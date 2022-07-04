@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="600dp"
+    android:layout_height="match_parent"
+    android:background="#3A3A47"
+    android:isScrollContainer="true"
+    android:orientation="horizontal"
+    android:overScrollMode="always"
+    android:screenOrientation="landscape">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:outlineProvider="none">
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="115dp"
+                android:layout_height="55dp"
+                android:onClick="saveData"
+                android:text="@string/saveSettings"
+                android:textColor="#00BCD4"
+                android:textSize="8sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/button8"
+                app:layout_constraintTop_toTopOf="@+id/button8"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button_down"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:onClick="downloadFile"
+                android:text="@string/dialogDown"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxIR"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="115dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:onClick="SendData"
+                android:text="@string/DownloadTurret"
+                android:textColor="#00BCD4"
+                android:textSize="10sp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toStartOf="@+id/button9"
+                app:layout_constraintStart_toEndOf="@+id/button7"
+                app:layout_constraintTop_toBottomOf="@+id/button_prog"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button_prog"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:onClick="showVolume"
+                android:text="@string/dialogProg"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_down"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="115dp"
+                android:layout_height="55dp"
+                android:onClick="loadData"
+                android:text="@string/loadSettings"
+                android:textColor="#00BCD4"
+                android:textSize="8sp"
+                app:layout_constraintEnd_toStartOf="@+id/button8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/button8"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button_target"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:onClick="showAmountTarget"
+                android:text="@string/buttonTarget"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_time"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button_time"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:onClick="showTimeTarget"
+                android:text="@string/dialogTime"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="2dp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxIR"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:onClick="onClickcheck"
+                android:text="@string/checkIR"
+                android:textAlignment="viewStart"
+                android:textAllCaps="true"
+                android:textColor="#00BCD4"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_target"
+                tools:text="@string/checkIR" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="336dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button8"
+                tools:visibility="invisible" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="180dp"
+    android:layout_height="160dp"
+    android:background="@color/cardview_dark_background"
+    android:filterTouchesWhenObscured="false"
+    >
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="124dp"
+        android:text="yes"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#3AB525"
+        app:strokeWidth="1dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupColor"
+        android:layout_width="118dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonRed"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#DA0A28"
+            android:checked="false"
+            android:text="@string/targetRed"
+            android:textColor="#000000"
+            android:textSize="8sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGreen"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#3AB525"
+            android:text="@string/targetGreen"
+            android:textColor="#000000"
+            android:textSize="8sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBlue"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#072EA5"
+            android:text="@string/targetBlue"
+            android:textColor="#000000"
+            android:textSize="8sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAll"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:background="#FFFFFF"
+            android:checked="true"
+            android:text="@string/targetAll"
+            android:textColor="#000000"
+            android:textSize="8sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

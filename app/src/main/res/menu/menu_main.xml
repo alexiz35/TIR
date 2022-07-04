@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.Control_LTU.MainActivity">
+    <item
+        android:id="@+id/menuDevice"
+        android:onClick="onClickSetting"
+        android:orderInCategory="100"
+        android:title="@string/textMenuDevice" />
+    <item
+        android:id="@+id/menuPreset"
+        android:title="@string/textMenuPreset" />
+</menu>
